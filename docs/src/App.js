@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import purple from './purple-09.svg';
+import title_heart from './title_heart.svg';
 import './App.css';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+
+import Infographic from './Infographic';
 
 class App extends Component {
   render() {
     return (
+      <body>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ParallaxProvider>
+        <div>
+          <Infographic />
+        </div>
+      </ParallaxProvider>
       </div>
+    </body>
     );
   }
 }

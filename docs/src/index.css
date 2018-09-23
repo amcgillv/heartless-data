@@ -3,3 +3,134 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+img.title_pic {
+    margin-top: -15%;
+    overflow: hidden;
+    height: 790px;
+    position: relative;
+    z-index: 1;
+}
+
+.flex-first img {
+  margin-top: -75%;
+margin-left: -15%;
+overflow: hidden;
+width: 140%;
+}
+
+.heartless {
+  font-weight: bold;
+  font-size: 54px;
+  padding-bottom: 35px;
+  z-index: 1;
+}
+
+.title_banner {
+  margin-top: -40%;
+height: 1492px;
+width: 120%;
+overflow: hidden;
+position: absolute;
+  left: -10%;
+}
+
+#calcs,
+#initial-relationship-pattern {
+  display:block;
+  background-repeat: repeat;
+  background-image: url("./calculations_Calculations.svg");
+}
+
+div#initial-relationship-pattern {
+  height: 743px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.grayground {
+  margin-top: -30%;
+    height: 200%;
+    width: 150%;
+  overflow: hidden;
+  position: absolute;
+  left: -15%;
+}
+
+div#explain-title-block,
+div#demographics,
+div#love,
+div#respect,
+div#desire,
+div#final-thoughts {
+  height: 743px;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+  /* background: white; */
+}
+
+div#final-thoughts {
+  background-color: #662d91;
+}
+
+#titletop h1,
+.flex-first h3,
+#final-thoughts h1 {
+  position: relative;
+  color: white;
+  top: 125px;
+  text-align: center;
+  font-size: 64px;
+  padding-bottom: 35px;
+  z-index: 2;
+}
+
+.heartless {
+  position: relative;
+  color: #662d91;
+  top: 125px;
+  text-align: center;
+  font-size: 64px;
+  padding-bottom: 35px;
+  z-index: 1;
+}
+
+.heartless img {
+  z-index: -1;
+}
+
+h2 {
+  z-index: 2;
+}
+
+.flex-first-container {
+  display: flex;
+  position: relative;
+}
+
+.flex-first {
+  background-color: #955ac1;
+      margin: 7%;
+      margin-top: -.01%;
+}
+
+.initrela {
+  align-items: center;
+}
+
+div#i-love-yous {
+  height: 743px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+p#note {
+      font-weight: normal;
+      font-size: 16px;
+    padding-top: 14px;
+      text-align: right;
+}
