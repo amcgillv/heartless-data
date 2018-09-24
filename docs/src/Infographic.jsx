@@ -22,7 +22,7 @@ class Infographic extends Component {
     <div>
 
       <div id="titletop">
-        <h1 className="App-title">IS ALYSSA A HEARTLESS BITCH?</h1>
+        <h1 className="App-title">IS ALYSSA A HEARTLESS?</h1>
         <img src={title_heart} className="title_pic" alt="heart" />
         <img src={purple} className="title_banner" alt="heart" />
       </div>

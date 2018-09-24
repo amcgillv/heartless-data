@@ -200,9 +200,9 @@ img.heartchart {
  {
   /* margin-top: -30%;
     height: 300%; */
-    width: 160%;
+    width: 200%;
     overflow: hidden;
     position: absolute;
-      left: -30%;
-      top: -90%
+    left: -30%;
+    top: -140%;
 }
