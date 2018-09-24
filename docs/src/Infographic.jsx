@@ -126,7 +126,7 @@ class Infographic extends Component {
 
       <div id="break-up">
         <div id="parallax-heart"></div>
-        <div class="heartless"> On average, relationships lasted 9 months.</div>
+        {/* <div class="heartless"> On average, relationships lasted 9 months.</div> */}
         <div class="heartless"> Best breakup line said to Alyssa</div>
         <img id="boysquig" src={boy} alt="squig"/>
         <div class="heartless"> Best breakup line said by Alyssa</div>
@@ -136,13 +136,13 @@ class Infographic extends Component {
       <div id="love">
         <Parallax
           className="custom-class"
-          offsetYMax={40}
-          offsetYMin={-40}
+          offsetYMax={20}
+          offsetYMin={-20}
           slowerScrollRate
           tag="figure"
         >
           <img id="heartchartback1" src={grayground}  className="heartchart_banner1" alt="heart" />
-            <div class="heartless heartcharts">
+            <div class="heartless">
               <h3> Presence of mutual <b>love</b> during the relationship sits at <b>66%</b></h3>
               <img src={heartchart1}  className="heartchart"/>
             </div>
@@ -157,8 +157,8 @@ class Infographic extends Component {
           slowerScrollRate
           tag="figure"
         >
-          <img id="pinkground" src={grayground}  className="heartchart_banner" alt="heart" />
-            <div class="heartless heartcharts">
+          <img id="heartchartback2" src={grayground}  className="heartchart_banner1" alt="heart" />
+            <div class="heartless">
               <h3> Presence of mutual <b>genuine love and respect</b> during the relationship sits at <b>0%</b>
               </h3>
               <img src={heartchart2}  className="heartchart"/>
@@ -174,11 +174,11 @@ class Infographic extends Component {
             slowerScrollRate
             tag="figure"
           >
-            <img id="pinkground" src={grayground}  className="heartchart_banner" alt="heart" />
+            <img id="heartchartback3" src={grayground}  className="heartchart_banner1" alt="heart" />
               <div class="heartless">
                 <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship sits at <b>66%</b>
                 </h3>
-                <img src={heartchart1}  className="heartchart"/>
+                <img id="endheart1" src={heartchart1}  className="heartchart"/>
               </div>
             </Parallax>
       </div>
@@ -189,11 +189,7 @@ class Infographic extends Component {
 
       <div id="final-thoughts">
         <div class="App-title">
-          <h1>
-        With all of this in mind, if you think that Alyssa has no heart, then
-        you're probably thinking that her partners don't either.<br/>
-        Perhaps, we're all heartless<br/>
-        and we're all screwed.</h1>
+          <h1>With all of this in mind, I guess the answer we're looking for is <i>probably not</i>.</h1>
       </div>
       </div>
 

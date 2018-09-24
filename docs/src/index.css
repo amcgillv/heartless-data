@@ -44,8 +44,7 @@ width: 140%;
 
 .title_banner {
   margin-top: -40%;
-height: 1492px;
-width: 120%;
+    width: 140%;
 overflow: hidden;
 position: absolute;
   left: -10%;
@@ -91,6 +90,12 @@ div#initial-relationship-pattern {
   position: relative;
   min-height: 530px;
 }
+div#final-thoughts{
+    height: 443px;
+}
+div#break-up {
+  width:100%
+}
 
 div#final-thoughts {
   background-color: #662d91;
@@ -106,6 +111,9 @@ div#final-thoughts {
   font-size: 64px;
   padding-bottom: 35px;
   z-index: 2;
+}
+#final-thoughts h1 {
+color: #ff7c5c;
 }
 
 .heartless {
@@ -179,18 +187,22 @@ p#note {
 }
 
 img.heartchart {
-  margin-top: -45%;
-  overflow: hidden;
-  height: 790px;
+  margin-top: -30%;
+    overflow: hidden;
+    width: 60%;
   position: relative;
   z-index: -1;
 }
 
-#heartchartback1 {
-  margin-top: -30%;
-    height: 300%;
+#heartchartback1,
+#heartchartback2,
+#heartchartback3
+ {
+  /* margin-top: -30%;
+    height: 300%; */
     width: 160%;
     overflow: hidden;
     position: absolute;
       left: -30%;
+      top: -90%
 }
