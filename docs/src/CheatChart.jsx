@@ -8,14 +8,16 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class CheatChart extends Component {
 	render() {
 		const options = {
-			// theme: "light2",
+			animationEnabled: true,
 			title: {
 				text: "Degree of Infidelity",
-				fontFamily: "sans-serif"
+				fontFamily: "sans-serif",
+				fontColor: "#7b7979"
 			},
 			subtitles: [{
 				text: "...because there was so much of it",
-					fontFamily: "sans-serif"
+					fontFamily: "sans-serif",
+					fontColor: "#7b7979"
 			}],
 			backgroundColor: "#00000000",
 			axisY: {
@@ -24,7 +26,8 @@ class CheatChart extends Component {
 			},
 			axisX: {
 				minimum: 1,
-				valueFormatString: " "
+				valueFormatString: " ",
+				labelFontColor: "#7b7979"
 			},
 			toolTip: {
 				shared: true
@@ -33,6 +36,7 @@ class CheatChart extends Component {
 			{
 				type: "bar",
 				name: "The Partner",
+				color: "#ff9f87",
 				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",
@@ -51,6 +55,7 @@ class CheatChart extends Component {
 			{
 				type: "bar",
 				name: "Alyssa",
+				color: "white",
 				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",

@@ -7,49 +7,60 @@ class AbuseChart extends Component {
 	render() {
 		const options = {
 			animationEnabled: true,
-			// theme: "light2",
+			colorSet: "greenShades",
 			title:{
 				text: "Degree of Abuse",
-				fontFamily: "sans-serif"
+				fontFamily: "sans-serif",
+				fontColor: "#7b7979"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
 				text: "...because any amount of it is too much of it",
-					fontFamily: "sans-serif"
+					fontFamily: "sans-serif",
+					fontColor: "#7b7979"
 			}],
 			axisX: {
 				title: "",
 				// reversed: true,
-				valueFormatString: " "
+				valueFormatString: " ",
+				indexLabelFontColor:"#7b7979",
+				fontColor: "#7b7979",
+				fontFamily: "sans-serif"
+
 			},
 			axisY: {
 				title: "Count of relationships where this variety of abuse occurred",
 				// labelFormatter: this.addSymbols
+				labelFontColor:"#7b7979",
+				fontColor: "#7b7979",
+				fontFamily: "sans-serif"
 			},
 			data: [{
 				type: "bar",
 				name: "The Partner",
-								showInLegend: false,
+				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",
+				color: "#ff9f87",
 				showInLegend: false,
 				dataPoints: [
-					{ y:  3, label: "The Partner: Verbal" },
-					{ y:  1, label: "The Partner: Physical" },
-					{ y:  6, label: "The Partner: None, what a good egg!" }
+					{ y:  3, label: "The Partner: Verbal", indexLabelFontColor:"#7b7979" },
+					{ y:  1, label: "The Partner: Physical", indexLabelFontColor:"#7b7979" },
+					{ y:  6, label: "The Partner: None, what a good egg!", indexLabelFontColor:"#7b7979" }
 				]
 			},
 			{
 					type: "bar",
 					name: "Alyssa",
-									showInLegend: false,
+					showInLegend: false,
 					xValueFormatString: " ",
 					yValueFormatString: "#,####",
+					color: "white",
 					showInLegend: false,
 					dataPoints: [
-						{ y:  0, label:  "Verbal" },
-						{ y:  0, label: "Physical" },
-						{ y:  10, label: "None, what a good egg!" }
+						{ y:  0, label:  "Verbal", indexLabelFontColor:"#7b7979" },
+						{ y:  0, label: "Physical", indexLabelFontColor:"#7b7979" },
+						{ y:  10, label: "None, what a good egg!", indexLabelFontColor:"#7b7979" }
 					]
 			}]
 		}

@@ -10,14 +10,16 @@ class LoveChart extends Component {
 			animationEnabled: true,
 			title: {
 				text: 'Who said "I love you" first?',
-				fontFamily: "sans-serif"
+				fontFamily: "sans-serif",
+				fontColor: "#662d91"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
 				text: "56% The Partner",
 				verticalAlign: "center",
 				dockInsidePlotArea: true,
-				fontFamily: "Sans-Serif"
+				fontFamily: "sans-serif",
+				fontColor: "#662d91"
 			}],
 			data: [{
 				type: "doughnut",
@@ -25,11 +27,12 @@ class LoveChart extends Component {
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "The Partner", y: 55.6 },
-					{ name: "Alyssa", y: 11.1 },
-					{ name: "LOL Nobody", y: 33.3 }
+					{ name: "The Partner", y: 55.6, indexLabelFontColor: "#662d91", color: "#ff9f87" },
+					{ name: "Alyssa", y: 11.1, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
+					{ name: "LOL Nobody", y: 33.3, indexLabelFontColor: "#662d91", color: "white"  }
 				],
-				fontFamily: "Sans-Serif"
+				fontFamily: "sans-serif",
+				fontColor: "#662d91"
 			}]
 		}
 		return (

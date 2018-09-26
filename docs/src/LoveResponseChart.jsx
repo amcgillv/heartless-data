@@ -10,14 +10,16 @@ class LoveResponseChart extends Component {
 			animationEnabled: true,
 			title: {
 				text: "How'd that go?",
-				fontFamily: "sans-serif"
+				fontFamily: "sans-serif",
+				fontColor: "#662d91"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
 				text: "Not well*",
 				verticalAlign: "center",
 				dockInsidePlotArea: true,
-				fontFamily: "Sans-Serif"
+				fontFamily: "Sans-Serif",
+				fontColor: "#662d91"
 			}],
 			data: [{
 				type: "doughnut",
@@ -25,9 +27,9 @@ class LoveResponseChart extends Component {
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "The Partner", y: 33.3 },
-					{ name: "Alyssa", y: 33.3 },
-					{ name: "Can't respond to something that never happened", y: 33.3 }
+					{ name: "The Partner", y: 33.3, indexLabelFontColor: "#662d91", color: "#ff9f87" },
+					{ name: "Alyssa", y: 33.3, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
+					{ name: "Can't respond to something that never happened", y: 33.3, indexLabelFontColor: "#662d91", color: "white"}
 				],
 				fontFamily: "Sans-Serif"
 			}]
