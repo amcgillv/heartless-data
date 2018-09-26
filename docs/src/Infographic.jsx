@@ -158,7 +158,7 @@ class Infographic extends Component {
         >
           <img id="heartchartback1" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
-              <h3> Presence of mutual <b>love</b> during the relationship: <b>66%</b></h3>
+              <h3> Presence of mutual <b>love</b> during the relationship: <br/><b>66% of relationships</b></h3>
               <img src={heartchart1}  className="heartchart"/>
             </div>
           </Parallax>
@@ -174,7 +174,7 @@ class Infographic extends Component {
         > */}
           <img id="heartchartback2" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
-              <h3> Presence of mutual <b>genuine love and respect</b> during the relationship: <b>0%</b>
+              <h3> Presence of mutual <b>genuine love and respect</b> during the relationship: <br/><b>0% of relationships</b>
               </h3>
               <img src={heartchart2}  className="heartchart"/>
             </div>
@@ -191,7 +191,7 @@ class Infographic extends Component {
           >
             <img id="heartchartback3" src={biggrayground}  className="heartchart_banner1" alt="heart" />
               <div class="heartless">
-                <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship: <b>66%</b>
+                <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship: <br/><b>66% of relationships</b>
                 </h3>
                 <img id="endheart1" src={heartchart1}  className="heartchart"/>
               </div>
