@@ -50,6 +50,9 @@ width: 140%;
 .heartless {
   font-size: 64px;
 }
+div#explain-title-block {
+  height: 743px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -118,6 +121,8 @@ div#initial-relationship-pattern {
   position: relative;
   min-height: 530px;
 }
+
+
 div#final-thoughts{
     height: 443px;
 }

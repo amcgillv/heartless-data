@@ -6,6 +6,7 @@ import grayground from './gray-08.svg';
 import biggrayground from './biggrayground.svg';
 import heightpic from './height_Height.svg';
 import calendarpic from './calendar.svg';
+import calnogray from './calnogray.svg';
 import calcs from './calculations_Calculations.svg';
 import pinkground from './pinkscrib_Tile.svg';
 import bigpinkground from './bigpink-08.svg';
@@ -63,7 +64,7 @@ class Infographic extends Component {
             </div>
             <div class="flex-first">
                 <h3>were 12.6 months older on average</h3>
-              <img src={calendarpic} alt="heart" />
+              <img src={calnogray} alt="heart" />
             </div>
           </div>
 
