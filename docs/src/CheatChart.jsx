@@ -35,7 +35,8 @@ class CheatChart extends Component {
 				title: "Scale shows severity of infidelity from very faithful to very unfaithful",
 			},
 			toolTip: {
-				shared: true
+				shared: true,
+				fontColor: "black"
 			},
 			data: [
 			{

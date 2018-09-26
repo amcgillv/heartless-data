@@ -19,6 +19,10 @@ class AbuseChart extends Component {
 					fontFamily: "sans-serif",
 					fontColor: "#7b7979"
 			}],
+			toolTip: {
+				fontColor: "black",
+				content: "{name}: {y}"
+			},
 			axisX: {
 				title: "",
 				// reversed: true,
@@ -44,9 +48,9 @@ class AbuseChart extends Component {
 				color: "#ff9f87",
 				showInLegend: false,
 				dataPoints: [
+					{ y:  6, label: "The Partner: None, what a good egg!", indexLabelFontColor:"#7b7979" },
 					{ y:  3, label: "The Partner: Verbal", indexLabelFontColor:"#7b7979" },
-					{ y:  1, label: "The Partner: Physical", indexLabelFontColor:"#7b7979" },
-					{ y:  6, label: "The Partner: None, what a good egg!", indexLabelFontColor:"#7b7979" }
+					{ y:  1, label: "The Partner: Physical", indexLabelFontColor:"#7b7979" }
 				]
 			},
 			{
@@ -58,9 +62,10 @@ class AbuseChart extends Component {
 					color: "white",
 					showInLegend: false,
 					dataPoints: [
+						{ y:  10, label: "No abuse whatsoever, what a good egg!", indexLabelFontColor:"#7b7979" },
 						{ y:  0, label:  "Verbal Abuse", indexLabelFontColor:"#7b7979" },
-						{ y:  0, label: "Physical Abuse", indexLabelFontColor:"#7b7979" },
-						{ y:  10, label: "No abuse whatsoever, what a good egg!", indexLabelFontColor:"#7b7979" }
+						{ y:  0, label: "Physical Abuse", indexLabelFontColor:"#7b7979" }
+
 					]
 			}]
 		}
