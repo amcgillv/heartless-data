@@ -3,11 +3,13 @@ import { Parallax } from 'react-scroll-parallax';
 
 import parallax1 from './parallax1.svg';
 import grayground from './gray-08.svg';
+import biggrayground from './biggrayground.svg';
 import heightpic from './height_Height.svg';
 import calendarpic from './calendar.svg';
 import calcs from './calculations_Calculations.svg';
 import pinkground from './pinkscrib_Tile.svg';
 import purple from './purple-09.svg';
+import bigpurp from './bigpurp.svg';
 import title_heart from './title_heart.svg';
 import boy from './breakup_boysquig-08.svg';
 import girl from './breakup_girlsquig-09.svg';
@@ -22,9 +24,9 @@ class Infographic extends Component {
     <div>
 
       <div id="titletop">
-        <h1 className="App-title">IS ALYSSA A HEARTLESS?</h1>
+        <h1 className="App-title">IS ALYSSA A HEARTLESS MONSTER?</h1>
         <img src={title_heart} className="title_pic" alt="heart" />
-        <img src={purple} className="title_banner" alt="heart" />
+        <img src={bigpurp} className="title_banner" alt="heart" />
       </div>
 
       <div id="explain-title-block">
@@ -43,7 +45,7 @@ class Infographic extends Component {
       </div>
 
       <div id="demographics">
-        <img src={grayground} className="grayground" alt="heart" />
+        <img src={biggrayground} className="grayground" alt="heart" />
         <div class="heartless">
           <h3 id="h3demo">The lovers she's left in her wake...</h3>
           <div class="flex-first-container">
@@ -110,7 +112,7 @@ class Infographic extends Component {
           slowerScrollRate
           tag="figure"
         >
-          <img id="pinkground" src={grayground}  className="title_banner" alt="heart" />
+          <img id="pinkground" src={biggrayground}  className="title_banner" alt="heart" />
             <div class="heartless">
               <div class="flex-grid">
                 <div class="col">
@@ -136,12 +138,12 @@ class Infographic extends Component {
       <div id="love">
         <Parallax
           className="custom-class"
-          offsetYMax={20}
-          offsetYMin={-20}
+          offsetYMax={40}
+          offsetYMin={-40}
           slowerScrollRate
           tag="figure"
         >
-          <img id="heartchartback1" src={grayground}  className="heartchart_banner1" alt="heart" />
+          <img id="heartchartback1" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
               <h3> Presence of mutual <b>love</b> during the relationship sits at <b>66%</b></h3>
               <img src={heartchart1}  className="heartchart"/>
@@ -150,20 +152,20 @@ class Infographic extends Component {
       </div>
 
       <div id="respect">
-        <Parallax
+        {/* <Parallax
           className="custom-class"
           offsetYMax={40}
           offsetYMin={-40}
           slowerScrollRate
           tag="figure"
-        >
-          <img id="heartchartback2" src={grayground}  className="heartchart_banner1" alt="heart" />
+        > */}
+          <img id="heartchartback2" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
               <h3> Presence of mutual <b>genuine love and respect</b> during the relationship sits at <b>0%</b>
               </h3>
               <img src={heartchart2}  className="heartchart"/>
             </div>
-          </Parallax>
+          {/* </Parallax> */}
       </div>
 
       <div id="desire">
@@ -174,7 +176,7 @@ class Infographic extends Component {
             slowerScrollRate
             tag="figure"
           >
-            <img id="heartchartback3" src={grayground}  className="heartchart_banner1" alt="heart" />
+            <img id="heartchartback3" src={biggrayground}  className="heartchart_banner1" alt="heart" />
               <div class="heartless">
                 <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship sits at <b>66%</b>
                 </h3>

@@ -7,7 +7,7 @@ body {
 img.title_pic {
     margin-top: -15%;
     overflow: hidden;
-    height: 790px;
+    /* height: 790px; */
     position: relative;
     z-index: 1;
     animation: beat .80s infinite alternate;
@@ -15,6 +15,7 @@ img.title_pic {
 }
 #boysquig,
 #girlsquig {
+  width: 85%;
   animation: beat .80s infinite alternate;
   transform-origin: center;
 }
@@ -37,9 +38,35 @@ width: 140%;
 
 .heartless {
   font-weight: bold;
-  font-size: 54px;
+  /* font-size: 54px; */
   padding-bottom: 35px;
   z-index: 1;
+}
+
+@media (min-width: 1024px) {
+#titletop h1,
+.flex-first h3,
+#final-thoughts h1,
+.heartless {
+  font-size: 64px;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+div#explain-title-block, div#demographics, div#love, div#respect, div#desire, div#final-thoughts, div#titletop, div#conflict, div#initial-relationship-pattern{
+  height: 100%;
+}
+
+#titletop h1,
+.flex-first h3,
+#final-thoughts h1,
+.heartless {
+    font-size: 100%;
+    /* line-height: 80px; */
+    padding-bottom: 0px;
+    padding-top: 26px;
+}
 }
 
 .title_banner {
@@ -84,7 +111,7 @@ div#final-thoughts,
 div#titletop,
 div#conflict,
 div#initial-relationship-pattern {
-  height: 743px;
+  /* height: 743px; */
   width:100%;
   overflow: hidden;
   position: relative;
@@ -108,12 +135,13 @@ div#final-thoughts {
   color: white;
   top: 125px;
   text-align: center;
-  font-size: 64px;
+
   padding-bottom: 35px;
   z-index: 2;
 }
 #final-thoughts h1 {
-color: #ff7c5c;
+/* color: #ff7c5c; */
+color: white;
 }
 
 .heartless {
@@ -121,7 +149,7 @@ color: #ff7c5c;
   color: #662d91;
   top: 125px;
   text-align: center;
-  font-size: 64px;
+  /* font-size: 64px; */
   padding-bottom: 35px;
   z-index: 1;
 }
@@ -131,7 +159,7 @@ color: #ff7c5c;
   color: white;
   top: 125px;
   text-align: center;
-  font-size: 64px;
+  /* font-size: 64px; */
   padding-bottom: 35px;
   z-index: 1;
 }
@@ -198,11 +226,9 @@ img.heartchart {
 #heartchartback2,
 #heartchartback3
  {
-  /* margin-top: -30%;
-    height: 300%; */
-    width: 200%;
-    overflow: hidden;
-    position: absolute;
-    left: -30%;
-    top: -140%;
+   width: 120%;
+   overflow: hidden;
+   position: absolute;
+   margin-left: -60%;
+       margin-top: -10%;
 }
