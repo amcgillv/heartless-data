@@ -9,13 +9,13 @@ class LoveResponseChart extends Component {
 		const options = {
 			animationEnabled: true,
 			title: {
-				text: "How'd that go?",
+				text: "And it usually didn't go well*",
 				fontFamily: "sans-serif",
 				fontColor: "#662d91"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
-				text: "Not well*",
+				// text: "Not well*",
 				verticalAlign: "center",
 				dockInsidePlotArea: true,
 				fontFamily: "Sans-Serif",
@@ -27,9 +27,9 @@ class LoveResponseChart extends Component {
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "The Partner", y: 33.3, indexLabelFontColor: "#662d91", color: "#ff9f87" },
-					{ name: "Alyssa", y: 33.3, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
-					{ name: "Can't respond to something that never happened", y: 33.3, indexLabelFontColor: "#662d91", color: "white"}
+					{ name: "The response was good", y: 33.3, indexLabelFontColor: "#662d91", color: "#ff9f87" },
+					{ name: "The response was bad", y: 33.3, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
+					{ name: "You can't respond to something that never happened", y: 33.3, indexLabelFontColor: "#662d91", color: "white"}
 				],
 				fontFamily: "Sans-Serif"
 			}]

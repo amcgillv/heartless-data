@@ -10,12 +10,12 @@ class CheatChart extends Component {
 		const options = {
 			animationEnabled: true,
 			title: {
-				text: "Degree of Infidelity",
+				text: "There was so much cheating",
 				fontFamily: "sans-serif",
 				fontColor: "#7b7979"
 			},
 			subtitles: [{
-				text: "...because there was so much of it",
+				text: "...cheaters cheaters pumpkin eaters",
 					fontFamily: "sans-serif",
 					fontColor: "#7b7979"
 			}],
@@ -28,6 +28,11 @@ class CheatChart extends Component {
 				minimum: 1,
 				valueFormatString: " ",
 				labelFontColor: "#7b7979"
+
+			},
+
+			axisY: {
+				title: "Scale shows severity of infidelity from very faithful to very unfaithful",
 			},
 			toolTip: {
 				shared: true

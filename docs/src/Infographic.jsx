@@ -62,7 +62,7 @@ class Infographic extends Component {
               <img src={heightpic} alt="heart" />
             </div>
             <div class="flex-first">
-                <h3>were 12.6 months older</h3>
+                <h3>were 12.6 months older on average</h3>
               <img src={calendarpic} alt="heart" />
             </div>
           </div>

@@ -9,13 +9,13 @@ class MotherChart extends Component {
 		const options = {
 			animationEnabled: true,
 			title: {
-				text: "Did Alyssa feel like she was turning into her mother?",
+				text: "But she only felt like she was turning into her mother sometimes",
 				fontFamily: "sans-serif",
 				fontColor: "#7b7979"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
-				text: "22% Yes",
+				// text: "% of relationships that made Alyssa feel like she was turning into her mother ",
 				verticalAlign: "center",
 				dockInsidePlotArea: true,
 				fontFamily: "Sans-Serif",
@@ -28,8 +28,8 @@ class MotherChart extends Component {
 				yValueFormatString: "#,###'%'",
 					fontColor: "#7b7979",
 				dataPoints: [
-					{ name: "Yes", y: 22.2,indexLabelFontColor: "#7b7979", color: "#7b7979" },
-					{ name: "No", y: 77.8,indexLabelFontColor: "#7b7979", color: "#ff7c5c" }
+					{ name: "Turning into her mother", y: 22.2,indexLabelFontColor: "#7b7979", color: "#7b7979" },
+					{ name: "NOT turning into her mother", y: 77.8,indexLabelFontColor: "#7b7979", color: "#ff7c5c" }
 				],
 				fontFamily: "Sans-Serif",
 					fontColor: "#7b7979"

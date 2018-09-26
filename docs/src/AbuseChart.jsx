@@ -9,13 +9,13 @@ class AbuseChart extends Component {
 			animationEnabled: true,
 			colorSet: "greenShades",
 			title:{
-				text: "Degree of Abuse",
+				text: "And sometimes the relationship became more than unhealthy",
 				fontFamily: "sans-serif",
 				fontColor: "#7b7979"
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
-				text: "...because any amount of it is too much of it",
+				// text: "...because any amount of it is too much of it",
 					fontFamily: "sans-serif",
 					fontColor: "#7b7979"
 			}],
@@ -58,9 +58,9 @@ class AbuseChart extends Component {
 					color: "white",
 					showInLegend: false,
 					dataPoints: [
-						{ y:  0, label:  "Verbal", indexLabelFontColor:"#7b7979" },
-						{ y:  0, label: "Physical", indexLabelFontColor:"#7b7979" },
-						{ y:  10, label: "None, what a good egg!", indexLabelFontColor:"#7b7979" }
+						{ y:  0, label:  "Verbal Abuse", indexLabelFontColor:"#7b7979" },
+						{ y:  0, label: "Physical Abuse", indexLabelFontColor:"#7b7979" },
+						{ y:  10, label: "No abuse whatsoever, what a good egg!", indexLabelFontColor:"#7b7979" }
 					]
 			}]
 		}
