@@ -94,8 +94,9 @@ position: absolute;
 } */
 
 .grayground {
-  margin-top: -30%;
-    height: 200%;
+  /* margin-top: -30%; */
+  margin-top: -60%;
+    /* height: 200%; */
     width: 150%;
   overflow: hidden;
   position: absolute;
@@ -209,7 +210,13 @@ p#note {
 .flex-grid {
   display: flex;
   justify-content: space-between;
+
 }
+#firstchart,
+#conflictcharts{
+    margin-top: -15%;
+}
+
 .flex-grid .col {
   width: 49%;
 }

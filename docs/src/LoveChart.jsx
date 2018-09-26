@@ -4,31 +4,32 @@ var CanvasJSReact = require('./canvasjs.react');
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-class CanvasCharts extends Component {
+class LoveChart extends Component {
 	render() {
 		const options = {
 			animationEnabled: true,
 			title: {
-				text: "Customer Satisfaction"
+				text: 'Who said "I love you" first?',
+				fontFamily: "sans-serif"
 			},
+			backgroundColor: "#00000000",
 			subtitles: [{
-				text: "71% Positive",
+				text: "56% The Partner",
 				verticalAlign: "center",
-				fontSize: 24,
-				dockInsidePlotArea: true
+				dockInsidePlotArea: true,
+				fontFamily: "Sans-Serif"
 			}],
 			data: [{
 				type: "doughnut",
-				showInLegend: true,
+				showInLegend: false,
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "Unsatisfied", y: 5 },
-					{ name: "Very Unsatisfied", y: 31 },
-					{ name: "Very Satisfied", y: 40 },
-					{ name: "Satisfied", y: 17 },
-					{ name: "Neutral", y: 7 }
-				]
+					{ name: "The Partner", y: 55.6 },
+					{ name: "Alyssa", y: 11.1 },
+					{ name: "LOL Nobody", y: 33.3 }
+				],
+				fontFamily: "Sans-Serif"
 			}]
 		}
 		return (
@@ -41,4 +42,4 @@ class CanvasCharts extends Component {
 		);
 	}
 }
-module.exports = CanvasCharts;
+module.exports = LoveChart;

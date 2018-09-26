@@ -8,6 +8,7 @@ import heightpic from './height_Height.svg';
 import calendarpic from './calendar.svg';
 import calcs from './calculations_Calculations.svg';
 import pinkground from './pinkscrib_Tile.svg';
+import bigpinkground from './bigpink-08.svg';
 import purple from './purple-09.svg';
 import bigpurp from './bigpurp.svg';
 import title_heart from './title_heart.svg';
@@ -18,11 +19,18 @@ import chart1 from './chart1-08.svg';
 import heartchart1 from './heartchart-09.svg';
 import heartchart2 from './heartchart1-10.svg';
 
+import CanvasCharts from './CanvasCharts';
+import DecisionsChart from './DecisionsChart';
+import MotherChart from './MotherChart';
+import LoveChart from './LoveChart';
+import LoveResponseChart from './LoveResponseChart';
+import CheatChart from './CheatChart';
+import AbuseChart from './AbuseChart';
+
 class Infographic extends Component {
   render() {
     return (
     <div>
-
       <div id="titletop">
         <h1 className="App-title">IS ALYSSA A HEARTLESS MONSTER?</h1>
         <img src={title_heart} className="title_pic" alt="heart" />
@@ -75,13 +83,14 @@ class Infographic extends Component {
             {/* The lovers held intrests in ...
             [art.gif]
             ... in common.<br/> */}
-            <div class="flex-grid">
+            <div id="firstchart" class="flex-grid">
               <div class="col">
-            <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1880613559&amp;format=interactive"></iframe> <br/>
-            {/* <img src={chart1} alt="oops"/> */}
+            {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1880613559&amp;format=interactive"></iframe> <br/> */}
+            <DecisionsChart />
           </div>
           <div class="col">
-            <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=2091463890&amp;format=interactive"></iframe>
+            {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=2091463890&amp;format=interactive"></iframe> */}
+            <MotherChart />
           </div>
         </div>
       </div>
@@ -89,15 +98,17 @@ class Infographic extends Component {
       </div>
 
       <div id="i-love-yous">
-        <img src={pinkground} className="grayground" alt="heart" />
+        <img src={bigpinkground} className="grayground" alt="heart" />
 
         <div class="heartless">
           <div class="flex-grid">
             <div class="col">
-          <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1992495119&amp;format=interactive"></iframe>
+          {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1992495119&amp;format=interactive"></iframe> */}
+          <LoveChart />
         </div>
         <div class="col">
-          <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=520224158&amp;format=interactive"></iframe>
+          {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=520224158&amp;format=interactive"></iframe> */}
+          <LoveResponseChart />
         </div>
       </div>
           <p id="note">* Alyssa might have run away screaming a few times.</p>
@@ -114,12 +125,14 @@ class Infographic extends Component {
         >
           <img id="pinkground" src={biggrayground}  className="title_banner" alt="heart" />
             <div class="heartless">
-              <div class="flex-grid">
+              <div id="conflictcharts" class="flex-grid">
                 <div class="col">
-              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1084158075&amp;format=interactive"></iframe>
+              {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=1084158075&amp;format=interactive"></iframe> */}
+              <CheatChart />
             </div>
             <div class="col">
-              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=415365306&amp;format=interactive"></iframe>
+              {/* <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3BWWj-O25pXIqfjguwNBtiRoAmCJXr7mf4NPzFC07Yp8vFwAyw8qf_07v8Wsccj1oYaGpyPLl8sOM/pubchart?oid=415365306&amp;format=interactive"></iframe> */}
+              <AbuseChart />
             </div>
           </div>
             </div>
@@ -145,7 +158,7 @@ class Infographic extends Component {
         >
           <img id="heartchartback1" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
-              <h3> Presence of mutual <b>love</b> during the relationship sits at <b>66%</b></h3>
+              <h3> Presence of mutual <b>love</b> during the relationship: <b>66%</b></h3>
               <img src={heartchart1}  className="heartchart"/>
             </div>
           </Parallax>
@@ -161,7 +174,7 @@ class Infographic extends Component {
         > */}
           <img id="heartchartback2" src={biggrayground}  className="heartchart_banner1" alt="heart" />
             <div class="heartless">
-              <h3> Presence of mutual <b>genuine love and respect</b> during the relationship sits at <b>0%</b>
+              <h3> Presence of mutual <b>genuine love and respect</b> during the relationship: <b>0%</b>
               </h3>
               <img src={heartchart2}  className="heartchart"/>
             </div>
@@ -178,7 +191,7 @@ class Infographic extends Component {
           >
             <img id="heartchartback3" src={biggrayground}  className="heartchart_banner1" alt="heart" />
               <div class="heartless">
-                <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship sits at <b>66%</b>
+                <h3> Presence of mutual <b>desire for genuine love and respect</b> by the end of the relationship: <b>66%</b>
                 </h3>
                 <img id="endheart1" src={heartchart1}  className="heartchart"/>
               </div>

@@ -4,31 +4,31 @@ var CanvasJSReact = require('./canvasjs.react');
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-class CanvasCharts extends Component {
+class MotherChart extends Component {
 	render() {
 		const options = {
 			animationEnabled: true,
 			title: {
-				text: "Customer Satisfaction"
+				text: "Did Alyssa feel like she was turning into her mother?",
+				fontFamily: "sans-serif"
 			},
+			backgroundColor: "#00000000",
 			subtitles: [{
-				text: "71% Positive",
+				text: "22% Yes",
 				verticalAlign: "center",
-				fontSize: 24,
-				dockInsidePlotArea: true
+				dockInsidePlotArea: true,
+				fontFamily: "Sans-Serif"
 			}],
 			data: [{
 				type: "doughnut",
-				showInLegend: true,
+				showInLegend: false,
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "Unsatisfied", y: 5 },
-					{ name: "Very Unsatisfied", y: 31 },
-					{ name: "Very Satisfied", y: 40 },
-					{ name: "Satisfied", y: 17 },
-					{ name: "Neutral", y: 7 }
-				]
+					{ name: "Yes", y: 22.2 },
+					{ name: "No", y: 77.8 }
+				],
+				fontFamily: "Sans-Serif"
 			}]
 		}
 		return (
@@ -41,4 +41,4 @@ class CanvasCharts extends Component {
 		);
 	}
 }
-module.exports = CanvasCharts;
+module.exports = MotherChart;
