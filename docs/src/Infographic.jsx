@@ -14,7 +14,7 @@ import purple from './purple-09.svg';
 import bigpurp from './bigpurp.svg';
 import title_heart from './title_heart.svg';
 import boy from './breakup_boysquig-08.svg';
-import girl from './breakup_girlsquig-09.svg';
+import girl from './unicornsquig-16.svg';
 import bigpink from './redcover_Tile.svg';
 import chart1 from './chart1-08.svg';
 import heartchart1 from './heartchart-09.svg';
