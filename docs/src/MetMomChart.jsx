@@ -31,7 +31,7 @@ class MetMomChart extends Component {
 				fontFamily: "sans-serif",
 				dataPoints: [
 					{ name: "The Partner didn't meet Alyssa's mother", y: 66.7,indexLabelFontColor: "#7b7979", color: "#ff7c5c" },
-					{ name: "The Partner met Alyssa mother and it went well because The Partner was a BORING man", y: 33.3,indexLabelFontColor: "#7b7979", color: "#d5c2c2"  }
+					{ name: "The Partner met Alyssa's mother and it went well because The Partner was a BORING man", y: 33.3,indexLabelFontColor: "#7b7979", color: "#d5c2c2"  }
 				],
 				fontFamily: "sans-serif"
 			}]

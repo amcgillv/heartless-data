@@ -31,7 +31,7 @@ class MetDadChart extends Component {
 				fontFamily: "sans-serif",
 				dataPoints: [
 					{ name: "The Partner didn't meet Alyssa's father", y: 66.7,indexLabelFontColor: "#7b7979", color: "#ff7c5c" },
-					{ name: "The Partner met Alyssa father and it was extremely awkward", y: 33.3,indexLabelFontColor: "#7b7979", color: "#d5c2c2"  }
+					{ name: "The Partner met Alyssa's father and it was extremely awkward", y: 33.3,indexLabelFontColor: "#7b7979", color: "#d5c2c2"  }
 				],
 				fontFamily: "sans-serif"
 			}]
