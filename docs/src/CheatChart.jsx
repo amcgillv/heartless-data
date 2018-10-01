@@ -42,7 +42,7 @@ class CheatChart extends Component {
 			{
 				type: "bar",
 				name: "The Partner",
-				color: "#ff9f87",
+				color: "#7b7979",
 				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",
@@ -61,7 +61,7 @@ class CheatChart extends Component {
 			{
 				type: "bar",
 				name: "Alyssa",
-				color: "white",
+				color: "#d5c2c2",
 				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",

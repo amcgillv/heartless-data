@@ -27,9 +27,9 @@ class LoveChart extends Component {
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: 'The Partner said "I love you" first', y: 55.6, indexLabelFontColor: "#662d91", color: "#ff9f87" },
-					{ name: 'Alyssa  said "I love you" first', y: 11.1, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
-					{ name: "LOL Nobody said anything of the sort", y: 33.3, indexLabelFontColor: "#662d91", color: "white"  }
+					{ name: 'The Partner said "I love you" first', y: 55.6, indexLabelFontColor: "#662d91", color: "#ff7c5c" },
+					{ name: 'Alyssa  said "I love you" first', y: 11.1, indexLabelFontColor: "#662d91", color: "#d5c2c2"  },
+					{ name: "LOL Nobody said anything of the sort", y: 33.3, indexLabelFontColor: "#662d91", color: "#d7bfe9"  }
 				],
 				fontFamily: "sans-serif",
 				fontColor: "#662d91"

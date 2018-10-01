@@ -45,7 +45,7 @@ class AbuseChart extends Component {
 				showInLegend: false,
 				xValueFormatString: " ",
 				yValueFormatString: "#,####",
-				color: "#ff9f87",
+				color: "#7b7979",
 				showInLegend: false,
 				dataPoints: [
 					{ y:  6, label: "The Partner: None, what a good egg!", indexLabelFontColor:"#7b7979" },
@@ -59,7 +59,7 @@ class AbuseChart extends Component {
 					showInLegend: false,
 					xValueFormatString: " ",
 					yValueFormatString: "#,####",
-					color: "white",
+					color: "#d5c2c2",
 					showInLegend: false,
 					dataPoints: [
 						{ y:  10, label: "No abuse whatsoever, what a good egg!", indexLabelFontColor:"#7b7979" },

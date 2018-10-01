@@ -24,7 +24,7 @@ img.title_pic {
 }
 
 .flex-first img {
-  margin-top: -75%;
+  /* margin-top: -75%; */
 margin-left: -15%;
 overflow: hidden;
 width: 140%;
@@ -39,13 +39,16 @@ width: 140%;
 .heartless {
   font-weight: bold;
   /* font-size: 54px; */
-  padding-bottom: 35px;
+  /* padding-bottom: 200px; */
   z-index: 1;
 }
 
 @media (min-width: 1024px) {
 #titletop h1,
 .flex-first h3,
+.flex-first-white h3,
+.flex-first h5,
+.flex-first-white h5,
 #final-thoughts h1,
 .heartless {
   font-size: 64px;
@@ -63,6 +66,9 @@ div#explain-title-block, div#demographics, div#love, div#respect, div#desire, di
 
 #titletop h1,
 .flex-first h3,
+.flex-first-white h3,
+.flex-first h5,
+.flex-first-white h5,
 #final-thoughts h1,
 .heartless {
     font-size: 100%;
@@ -104,10 +110,16 @@ position: absolute;
   overflow: hidden;
   position: absolute;
   left: -15%;
+  top:125px
 }
 
 div#explain-title-block,
 div#demographics,
+div#demographics2a,
+div#demographics2b,
+div#demographics3,
+div#school-setting,
+div#parents,
 div#love,
 div#respect,
 div#desire,
@@ -136,15 +148,29 @@ div#final-thoughts {
 
 #titletop h1,
 .flex-first h3,
+.flex-first-white h5,
 #final-thoughts h1 {
   position: relative;
   color: white;
-  top: 125px;
+  /* top: 125px; */
   text-align: center;
-
-  padding-bottom: 35px;
+  /* padding-bottom: 35px; */
   z-index: 2;
 }
+.flex-first h5{
+  margin-top: -30%;
+}
+#titletop h1,
+#final-thoughts h1{
+  top: 125px;
+  padding-bottom: 35px;
+}
+
+.flex-first h5,
+.flex-first-white h5{
+  color: #662d91;
+}
+
 #final-thoughts h1 {
 /* color: #ff7c5c; */
 color: white;
@@ -153,10 +179,10 @@ color: white;
 .heartless {
   position: relative;
   color: #662d91;
-  top: 125px;
+  /* top: 125px; */
   text-align: center;
   /* font-size: 64px; */
-  padding-bottom: 35px;
+  /* padding-bottom: 200px; */
   z-index: 1;
 }
 
@@ -179,16 +205,25 @@ h2 {
 }
 
 .flex-first-container {
-  display: flex;
+  display: inline-flex;
   position: relative;
 }
 
-.flex-first {
+.flex-first,
+.flex-first-white {
   background-color: #d7bfe9;
-  margin: 10%;
+  /* margin: 10%; */
+    margin: 2%;
   margin-top: -.01%;
   /* margin-left: 3%; */
       max-width: 443px;
+}
+
+.flex-first-white,
+#asleep1,
+#asleep2 {
+  background-color: #ffffffa6;
+  margin: 1%;
 }
 
 /* .initrela {
@@ -196,7 +231,7 @@ h2 {
 } */
 
 div#i-love-yous {
-  height: 743px;
+  /* height: 743px; */
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -207,6 +242,10 @@ p#note {
       font-size: 16px;
     padding-top: 14px;
       text-align: right;
+      background-color: #ffffffa6;
+      background-color: #ffffffa6;
+margin: 1%;
+margin-left: 51%;
 }
 
 #h3demo {
@@ -218,10 +257,10 @@ p#note {
   justify-content: space-between;
 
 }
-#firstchart,
+/* #firstchart,
 #conflictcharts{
     margin-top: -15%;
-}
+} */
 
 .flex-grid .col {
   width: 49%;
@@ -243,5 +282,57 @@ img.heartchart {
    overflow: hidden;
    position: absolute;
    margin-left: -60%;
-       margin-top: -10%;
+       margin-top: -20%;
+}
+
+#collab,
+#pathchart,
+#decisionchart,
+#motherchart,
+#metmom,
+#metdad,
+#lovechart,
+#loveresponse,
+#cheatchart,
+#abusechart {
+  background-color: #ffffffa6;
+  margin: 1%;
+}
+#breakup1,
+#breakup2 {
+  padding-bottom: 35px;
+}
+/* span, */
+.points {
+  background-color: #662d91;
+  /* background-color: #d5c2c2; */
+  /* background-color: #7b7979; */
+  color: white;
+  text-align: right;
+}
+
+
+.mothertext {
+  /* font-weight: normal; */
+  background-color: #ffffffa6;
+}
+
+#demheartless {
+  top: 125px;
+  padding-bottom: 200px;
+}
+
+
+h3#handshape{
+  margin-top: -13%
+}
+h1#peculiar {
+    margin-top: -14%;
+}
+h1#sleepzero {
+    margin-top: -8%;
+}
+
+.endchartdiv {
+  margin-top: -15%;
 }

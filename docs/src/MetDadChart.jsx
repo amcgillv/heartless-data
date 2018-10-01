@@ -4,18 +4,19 @@ var CanvasJSReact = require('./canvasjs.react');
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-class MotherChart extends Component {
+class MetDadChart extends Component {
 	render() {
 		const options = {
 			animationEnabled: true,
+			fontColor: "#7b7979",
 			title: {
-				text: "But she only felt like she was turning into her mother sometimes",
-				fontFamily: "sans-serif",
-				fontColor: "#7b7979"
+				// text: "Alyssa and The Partner tended to collaborate on projects for class",
+				fontFamily:"sans-serif",
+				fontColor: "#7b7979",
 			},
 			backgroundColor: "#00000000",
 			subtitles: [{
-				// text: "% of relationships that made Alyssa feel like she was turning into her mother ",
+				// text: "ususally Alyssa",
 				verticalAlign: "center",
 				dockInsidePlotArea: true,
 				fontFamily: "Sans-Serif",
@@ -26,13 +27,13 @@ class MotherChart extends Component {
 				showInLegend: false,
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
-					fontColor: "#7b7979",
+				fontColor: "#7b7979",
+				fontFamily: "sans-serif",
 				dataPoints: [
-					{ name: "Turning into her mother", y: 22.2,indexLabelFontColor: "#7b7979", color: "#d7bfe9" },
-					{ name: "NOT turning into her mother", y: 77.8,indexLabelFontColor: "#7b7979", color: "#ff7c5c" }
+					{ name: "The Partner didn't meet Alyssa's father", y: 66.7,indexLabelFontColor: "#7b7979", color: "#ff7c5c" },
+					{ name: "The Partner met Alyssa father and it was extremely awkward", y: 33.3,indexLabelFontColor: "#7b7979", color: "#d5c2c2"  }
 				],
-				fontFamily: "Sans-Serif",
-					fontColor: "#7b7979"
+				fontFamily: "sans-serif"
 			}]
 		}
 		return (
@@ -40,9 +41,8 @@ class MotherChart extends Component {
 			<CanvasJSChart options = {options}
 				/* onRef={ref => this.chart = ref} */
 			/>
-			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
 		</div>
 		);
 	}
 }
-module.exports = MotherChart;
+module.exports = MetDadChart;

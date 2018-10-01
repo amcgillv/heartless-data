@@ -27,9 +27,9 @@ class LoveResponseChart extends Component {
 				indexLabel: "{name}: {y}",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ name: "The response was good", y: 33.3, indexLabelFontColor: "#662d91", color: "#ff9f87" },
-					{ name: "The response was bad", y: 33.3, indexLabelFontColor: "#662d91", color: "#bfbaba"  },
-					{ name: "You can't respond to something that never happened", y: 33.3, indexLabelFontColor: "#662d91", color: "white"}
+					{ name: "The response was good", y: 33.3, indexLabelFontColor: "#662d91", color: "#ff7c5c" },
+					{ name: "The response was bad", y: 33.3, indexLabelFontColor: "#662d91", color: "#d5c2c2"  },
+					{ name: "You can't respond to something that never happened", y: 33.3, indexLabelFontColor: "#662d91", color: "#d7bfe9"}
 				],
 				fontFamily: "Sans-Serif"
 			}]

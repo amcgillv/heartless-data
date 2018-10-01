@@ -31,7 +31,7 @@ class DecisionsCharts extends Component {
 				fontFamily: "sans-serif",
 				dataPoints: [
 					{ name: "Alyssa made most decisions", y: 62.5,indexLabelFontColor: "#7b7979", color: "#ff7c5c" },
-					{ name: "The Partner made most decisions", y: 37.5,indexLabelFontColor: "#7b7979", color: "#7b7979"  }
+					{ name: "The Partner made most decisions", y: 37.5,indexLabelFontColor: "#7b7979", color: "#d7bfe9"  }
 				],
 				fontFamily: "sans-serif"
 			}]
