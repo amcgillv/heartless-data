@@ -108,6 +108,7 @@ class Infographic extends Component {
 
       <div id="demographics2b">
         <img src={biggrayground} className="grayground" alt="heart" />
+
         <div class="heartless">
           <p class="mothertext">Number of partners who...</p>
           <div class="flex-first-container">
@@ -130,22 +131,23 @@ class Infographic extends Component {
         </div>
 
         </div>
+
       </div>
       <div class="points">+1 horrible human point for failing to specify that these groups are NOT mutually exclusive</div>
-      <div class="points">+1 terrible Tammy point for laughing at The Partner who got hit by a car (even though he was mostly fine)</div>
+      <div class="points">+1 Terrible Tammy point for laughing at The Partner who got hit by a car (even though he was mostly fine)</div>
       <div class="points">+1 not good person point for labeling scars that are "none of her business" as "peculiar"</div>
 
 
 
 
       <div id="school-setting">
-        {/* <Parallax
+        <Parallax
           className="custom-class"
-          offsetYMax={40}
-          offsetYMin={-40}
+          offsetYMax={20}
+          offsetYMin={-20}
           slowerScrollRate
           tag="figure"
-        > */}
+        >
             <img id="pinkground" src={calcs}  className="title_banner" alt="heart" />
             <div class="heartless">
             <div id="firstchart" class="flex-grid">
@@ -157,7 +159,7 @@ class Infographic extends Component {
           </div>
         </div>
       </div>
-        {/* </Parallax> */}
+        </Parallax>
       </div>
 
       <div id="demographics3">
