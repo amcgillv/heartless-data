@@ -38,8 +38,8 @@ class PointsChart extends Component {
 				color: "#9bbb59",
 				name: "Present",
 				// showInLegend: true,
-				indexLabel: "",
-				// indexLabelFontColor: "white",
+				indexLabel: "{y} : {label}",
+				indexLabelFontColor: "white",
 				yValueFormatString: "#,###'%'",
 				color: "#ff9f87",
 				dataPoints: [
@@ -50,8 +50,8 @@ class PointsChart extends Component {
 				color: "#7f7f7f",
 				name: "No, not really.",
 				// showInLegend: true,
-				indexLabel: "",
-				// indexLabelFontColor: "white",
+				indexLabel: "{y} : {label}",
+				indexLabelFontColor: "white",
 				color: "#d5c2c2",
 				yValueFormatString: "#,###'%'",
 				dataPoints: [

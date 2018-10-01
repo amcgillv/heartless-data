@@ -133,7 +133,7 @@ class Infographic extends Component {
       </div>
       <div class="points">+1 horrible human point for failing to specify that these groups are NOT mutually exclusive</div>
       <div class="points">+1 terrible Tammy point for laughing at The Partner who got hit by a car (even though he was mostly fine)</div>
-      <div class="points">+1 not good person point for labeling scars that are "none of her business" as "perculiar"</div>
+      <div class="points">+1 not good person point for labeling scars that are "none of her business" as "peculiar"</div>
 
 
 
@@ -176,7 +176,7 @@ class Infographic extends Component {
           </div>
         </div>
       </div>
-        <div class="points">+1 godawful human point for provoking The Partner to question his sense of self </div>
+        <div class="points">+1 godawful human point for causing The Partner to question his sense of self </div>
         <div class="points">+1 nasty woman point for refusing to apologize </div>
 
       <div id="initial-relationship-pattern">
@@ -242,8 +242,8 @@ class Infographic extends Component {
           <div class="heartless">
             <PointsChart />
         </div>
-          <div class="points">+1 heartless point to even things out </div>
-          <div class="points">+1 heartless point for absent-mindedly assigning herself the previous heartless point  </div>
+          <div class="points">+1 evil witch point to even things out </div>
+          <div class="points">+1 heartless point for absent-mindedly assigning herself the previous evil witch point  </div>
         </div>
 
       <div id="conflict">
