@@ -350,7 +350,7 @@ class Infographic extends Component {
       </div>
       <div id="final-thoughts">
         <div class="App-title">
-          <h1>With all of this in mind, I guess the answer we're looking for is <i>probably not</i>.</h1>
+          <h1>With all of this in mind, I guess the answer to our original question is <i>probably not</i>.</h1>
       </div>
       </div>
 
